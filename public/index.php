@@ -1,14 +1,14 @@
 <?php
 
 // change the following paths if necessary
-$yii=dirname(__FILE__).'../framework/yii.php';
+$yii=dirname(__FILE__).'/../framework/yii.php';
 //$yii=dirname(dirname(__FILE__)).'/framework/yii.php';
 //echo dirname(dirname(__FILE__)).'/framework/yii.php';
 //$yii='../framework/yii.php';
 //$yii='../'.dirname(__FILE__).'/framework/yii.php';
 //$yii=dirname(__FILE__).'/..'.'/framework/yii.php';
 
-$config=dirname(__FILE__).'../protected/config/main.php';
+$config=dirname(__FILE__).'/../protected/config/main.php';
 //$config=dirname(dirname(__FILE__)).'/protected/config/main.php';
 //$config='../protected/config/main.php';
 //$config='../'.(dirname(__FILE__)).'/protected/config/main.php';

@@ -23,6 +23,9 @@ return array(
         'gii'=>array(
             'class'=>'system.gii.GiiModule',
             'password'=>'1',
+            'ipFilters'=>array('10.100.6.62','::1'),
+            'newFileMode'=>0666,
+            'newDirMode'=>0777,
         ),
 		/*
 		'gii'=>array(

@@ -1,5 +1,5 @@
 <?php
-echo dirname(__FILE__);
+//echo dirname(__FILE__);
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../framework/yii.php';
 //$yii=dirname(dirname(__FILE__)).'/framework/yii.php';

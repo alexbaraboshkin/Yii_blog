@@ -28,6 +28,5 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 /framework/*
-/assets/*
-/.idea/*
-//.idea/*
+/assets/**
+/\.idea/**

@@ -44,13 +44,14 @@ class PostController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	public function actionView($id)
-	{
-		$this->render('view',array(
-			'model'=>$this->loadModel($id),
-		));
-	}
-
+	
+    public function actionView()
+    {
+        $post=$this->loadModel();
+        $this->render('view',array(
+            'model'=>$post,
+        ));
+    }
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
@@ -145,13 +146,25 @@ class PostController extends Controller
 	 * @return Post the loaded model
 	 * @throws CHttpException
 	 */
-	public function loadModel($id)
-	{
-		$model=Post::model()->findByPk($id);
-		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
-		return $model;
-	}
+    private $_model;
+    public function loadModel()
+    {
+        if($this->_model===null)
+        {
+            if(isset($_GET['id']))
+            {
+                if(Yii::app()->user->isGuest)
+                    $condition='status='.Post::STATUS_PUBLISHED
+                        .' OR status='.Post::STATUS_ARCHIVED;
+                else
+                    $condition='';
+                $this->_model=Post::model()->findByPk($_GET['id'], $condition);
+            }
+            if($this->_model===null)
+                throw new CHttpException(404,'Запрашиваемая страница не существует.');
+        }
+        return $this->_model;
+    }
 
 	/**
 	 * Performs the AJAX validation.

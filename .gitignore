@@ -31,3 +31,4 @@ _ReSharper*/
 /\.idea/**
 //.idea/**
 /\.idea/*.xml
+.idea/workspace.xml

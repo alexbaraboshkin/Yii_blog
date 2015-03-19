@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/models/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.436363" vertical-offset="1470" max-vertical-offset="2125">
-              <caret line="165" column="5" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.75406873" vertical-offset="1691" max-vertical-offset="2244">
+              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
               <folding>
                 <element signature="n#tableName#0;n#Post#0;n#!!top" expanded="false" />
                 <element signature="e#728#793#0#PHP" expanded="false" />
@@ -122,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/post/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82474226" vertical-offset="30" max-vertical-offset="612">
+            <state vertical-scroll-proportion="-18.461538" vertical-offset="30" max-vertical-offset="612">
               <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding />
             </state>
@@ -146,10 +146,10 @@
         <option value="$PROJECT_DIR$/protected/models/Comment.php" />
         <option value="$PROJECT_DIR$/protected/models/Lookup.php" />
         <option value="$PROJECT_DIR$/protected/views/post/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/Post.php" />
         <option value="$PROJECT_DIR$/protected/views/post/index.php" />
         <option value="$PROJECT_DIR$/protected/controllers/PostController.php" />
         <option value="$PROJECT_DIR$/protected/views/post/admin.php" />
+        <option value="$PROJECT_DIR$/protected/models/Post.php" />
       </list>
     </option>
   </component>
@@ -233,29 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,21 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.436363" vertical-offset="1470" max-vertical-offset="2125">
-          <caret line="165" column="5" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
-          <folding>
-            <element signature="n#tableName#0;n#Post#0;n#!!top" expanded="false" />
-            <element signature="e#728#793#0#PHP" expanded="false" />
-            <element signature="e#1513#1557#0#PHP" expanded="false" />
-            <element signature="n#attributeLabels#0;n#Post#0;n#!!top" expanded="false" />
-            <element signature="e#2386#2883#0#PHP" expanded="false" />
-            <element signature="n#search#0;n#Post#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/post/_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
@@ -629,9 +592,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/post/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82474226" vertical-offset="30" max-vertical-offset="612">
+        <state vertical-scroll-proportion="-18.461538" vertical-offset="30" max-vertical-offset="612">
           <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75406873" vertical-offset="1691" max-vertical-offset="2244">
+          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+          <folding>
+            <element signature="n#tableName#0;n#Post#0;n#!!top" expanded="false" />
+            <element signature="e#728#793#0#PHP" expanded="false" />
+            <element signature="e#1513#1557#0#PHP" expanded="false" />
+            <element signature="n#attributeLabels#0;n#Post#0;n#!!top" expanded="false" />
+            <element signature="e#2386#2883#0#PHP" expanded="false" />
+            <element signature="n#search#0;n#Post#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

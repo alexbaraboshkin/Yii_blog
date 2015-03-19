@@ -40,8 +40,8 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/models/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64014465" vertical-offset="649" max-vertical-offset="1462">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.93851715" vertical-offset="926" max-vertical-offset="1581">
+              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
               <folding>
                 <element signature="n#tableName#0;n#Post#0;n#!!top" expanded="false" />
                 <element signature="e#640#705#0#PHP" expanded="false" />
@@ -531,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64014465" vertical-offset="649" max-vertical-offset="1462">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.93851715" vertical-offset="926" max-vertical-offset="1581">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
           <folding>
             <element signature="n#tableName#0;n#Post#0;n#!!top" expanded="false" />
             <element signature="e#640#705#0#PHP" expanded="false" />

@@ -43,7 +43,7 @@
 		<?php echo $form->error($model,'status'); ?>
 	</div>
 
-	
+
 	</div>
 
 	<div class="row buttons">

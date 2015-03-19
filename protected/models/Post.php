@@ -45,6 +45,8 @@ class Post extends CActiveRecord
             array('title, status', 'safe', 'on'=>'search'),
         );
 	}
+
+
     public function normalizeTags($attribute,$params)
     {
         $this->tags=Tag::array2string(array_unique(Tag::string2array($this->tags)));
@@ -52,15 +54,17 @@ class Post extends CActiveRecord
 	/**
 	 * @return array relational rules.
 	 */
-	public function relations()
-	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
-		return array(
-			'author' => array(self::BELONGS_TO, 'User', 'author_id'),
-			'comments' => array(self::HAS_MANY, 'Comment', 'post_id'),
-		);
-	}
+    public function relations()
+    {
+        return array(
+            'author' => array(self::BELONGS_TO, 'User', 'author_id'),
+            'comments' => array(self::HAS_MANY, 'Comment', 'post_id',
+                'condition'=>'comments.status='.Comment::STATUS_APPROVED,
+                'order'=>'comments.create_time DESC'),
+            'commentCount' => array(self::STAT, 'Comment', 'post_id',
+                'condition'=>'status='.Comment::STATUS_APPROVED),
+        );
+    }
 
 	/**
 	 * @return array customized attribute labels (name=>label)

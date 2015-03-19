@@ -18,7 +18,9 @@
  */
 class Comment extends CActiveRecord
 {
-	/**
+    const STATUS_PENDING=1;
+    const STATUS_APPROVED=2;
+    /**
 	 * @return string the associated database table name
 	 */
 	public function tableName()

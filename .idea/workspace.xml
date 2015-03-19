@@ -28,7 +28,7 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/models/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75406873" vertical-offset="1691" max-vertical-offset="2244">
+            <state vertical-scroll-proportion="1.1229657" vertical-offset="1487" max-vertical-offset="2244">
               <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
               <folding>
                 <element signature="n#tableName#0;n#Post#0;n#!!top" expanded="false" />
@@ -38,6 +38,16 @@
                 <element signature="e#2386#2883#0#PHP" expanded="false" />
                 <element signature="n#search#0;n#Post#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/Comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.076923" vertical-offset="1560" max-vertical-offset="2244">
+              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,16 +102,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1411">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ContactForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/ContactForm.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,13 +143,13 @@
         <option value="$PROJECT_DIR$/protected/models/User.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/protected/models/Tag.php" />
-        <option value="$PROJECT_DIR$/protected/models/Comment.php" />
         <option value="$PROJECT_DIR$/protected/models/Lookup.php" />
         <option value="$PROJECT_DIR$/protected/views/post/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/post/index.php" />
         <option value="$PROJECT_DIR$/protected/controllers/PostController.php" />
         <option value="$PROJECT_DIR$/protected/views/post/admin.php" />
         <option value="$PROJECT_DIR$/protected/models/Post.php" />
+        <option value="$PROJECT_DIR$/protected/models/Comment.php" />
       </list>
     </option>
   </component>
@@ -502,14 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="2125">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Lookup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.153847" vertical-offset="1747" max-vertical-offset="2329">
@@ -598,9 +590,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.076923" vertical-offset="1560" max-vertical-offset="2244">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75406873" vertical-offset="1691" max-vertical-offset="2244">
+        <state vertical-scroll-proportion="1.1229657" vertical-offset="1487" max-vertical-offset="2244">
           <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
           <folding>
             <element signature="n#tableName#0;n#Post#0;n#!!top" expanded="false" />

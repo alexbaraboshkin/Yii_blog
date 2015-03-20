@@ -101,4 +101,7 @@ return array(
 		'adminEmail'=>'webmaster@example.com',
 	),
     'defaultController'=>'post',
+
+// basePath ???
+//    'theme'=>'classic',
 );

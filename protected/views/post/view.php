@@ -43,4 +43,17 @@ $this->menu=array(
             'comments'=>$model->comments,
         )); ?>
     <?php endif; ?>
+
+    <h3>Оставить комментарий</h3>
+
+    <?php if(Yii::app()->user->hasFlash('commentSubmitted')): ?>
+        <div class="flash-success">
+            <?php echo Yii::app()->user->getFlash('commentSubmitted'); ?>
+        </div>
+    <?php else: ?>
+        <?php $this->renderPartial('/comment/_form',array(
+            'model'=>$comment,
+        )); ?>
+    <?php endif; ?>
+
 </div>

@@ -5,7 +5,7 @@
  * Date: 20.03.2015
  * Time: 12:02
  */
-
+Yii::import('zii.widgets.CPortlet');
 class UserMenu extends CPortlet
 {
     public function init()

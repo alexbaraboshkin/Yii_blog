@@ -56,7 +56,15 @@ return array(
 			),
 		),
 		*/
-
+        'urlManager'=>array(
+            'urlFormat'=>'path',
+            'rules'=>array(
+                'post/<id:\d+>/<title:.*?>'=>'post/view',
+                'posts/<tag:.*?>'=>'post/index',
+                'post/update/<id:\d+>'=>'post/update',
+                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+            ),
+        ),
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
 

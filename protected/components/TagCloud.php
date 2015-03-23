@@ -26,6 +26,6 @@ class TagCloud extends CPortlet
                     'style'=>"font-size:{$weight}pt",
                 ), $link)."\n";
         }
-        echo "It's written by protected/components/TagCloud.php";
+//        echo "It's written by protected/components/TagCloud.php";
     }
 }

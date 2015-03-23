@@ -15,7 +15,7 @@ class TagCloud extends CPortlet
 
     protected function renderContent()
     {
-        var_dump($this->maxTags);
+//        var_dump($this->maxTags);
         $tags=Tag::model()->findTagWeights($this->maxTags);
 
         foreach($tags as $tag=>$weight)

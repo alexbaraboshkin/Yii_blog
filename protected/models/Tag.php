@@ -111,7 +111,7 @@ class Tag extends CActiveRecord
             'order'=>'frequency DESC',
             'limit'=>$limit,
         ));
-        var_dump($limit);
+//        var_dump($limit);
 
         $total=0;
         foreach($models as $model)

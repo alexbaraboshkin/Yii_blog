@@ -111,6 +111,7 @@ class Tag extends CActiveRecord
             'order'=>'frequency DESC',
             'limit'=>$limit,
         ));
+        var_dump($limit);
 
         $total=0;
         foreach($models as $model)
@@ -192,6 +193,7 @@ class Tag extends CActiveRecord
 		$criteria->addInCondition('name',$tags);
 		$this->updateCounters(array('frequency'=>-1),$criteria);
 		$this->deleteAll('frequency<=0');
-	}	
+	}
+
 }
 

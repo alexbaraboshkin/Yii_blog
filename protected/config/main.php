@@ -67,7 +67,7 @@ return array(
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
             ),
         ),
-        
+
         'cache'=>array(
             'class'=>'CDbCache',
         ),

@@ -59,6 +59,7 @@ return array(
         'urlManager'=>array(
             'urlFormat'=>'path',
             'rules'=>array(
+                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                 'post/<id:\d+>/<title:.*?>'=>'post/view',
                 'posts/<tag:.*?>'=>'post/index',
                 'post/update/<id:\d+>'=>'post/update',

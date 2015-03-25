@@ -33,13 +33,32 @@ class HelloController extends CController
     public function actionNews()
     {
         echo "Вы открыли новость: ", $_GET['news_name'];
-        if (!empty($_GET['news_name']))
+
+
+        // если хотите, то $_GET['news_name'] можете обработать
+        // предварительно всякими функциями для безопасноти
+        $url = $_GET['news_name'];
+        // проверяем есть ли новость с таким url
+        if ($news = News::model()->findByAttributes(array('url' => $url)))
         {
-            // если значение не пустое...
-            // выводим содержимое переданного файла с расширением txt
-//            echo file_get_contents($_GET['news_name'] . ".txt");
-//            echo file_get_contents(dir(__FILE__)."/../../public/" . $_GET['news_name'] . ".txt");
+            // получается мы нашли в базе запись
+            // в которой значение url равняется переменной news_name
+            echo $news->title ,  '<br>' , $news->body;
         }
+        else
+        {
+            // нет такой новости, об этом и сообщаем:
+            echo 'новость не существует!';
+        }
+//        $url = $_GET['news_name'];
+//        // проверяем новость с таким же url
+//        if ($news = News::model()->findByAttributes(array('url' => $url)))
+//        {
+//            echo $news->title , '<br>', $news->body;
+//        } else {
+//            // нет такой новости, об этом и сообщаем:
+//            echo 'новости не существует!';
+//        }
     }
 
 }

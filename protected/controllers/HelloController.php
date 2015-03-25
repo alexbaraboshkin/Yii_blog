@@ -22,9 +22,9 @@ class HelloController extends CController
     {
         echo 'Привет Дима!';
     }
-    public function actionIvan()
+    public function actionMaksim()
     {
-        echo 'Привет Иван!';
+        echo 'Привет Максим!';
     }
 //    public function actionNews()
 //    {

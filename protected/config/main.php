@@ -65,6 +65,7 @@ return array(
                 'posts/<tag:.*?>'=>'post/index',
                 'post/update/<id:\d+>'=>'post/update',
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                'news/<news_name:.*?>'=>'hello/news',
             ),
         ),
 

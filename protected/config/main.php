@@ -56,7 +56,7 @@ return array(
 			),
 		),
 		*/
-/*
+
         'urlManager'=>array(
             'urlFormat'=>'path',
             'rules'=>array(
@@ -67,7 +67,7 @@ return array(
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
             ),
         ),
-        */
+        
         'cache'=>array(
             'class'=>'CDbCache',
         ),
